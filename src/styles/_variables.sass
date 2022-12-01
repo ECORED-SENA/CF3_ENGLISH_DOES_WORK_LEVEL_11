@@ -1,0 +1,200 @@
+// -----------------------------------------------------
+// COLORES ---------------------------------------------
+// -----------------------------------------------------
+  
+// Colores genericos -----------------------------------
+
+$black: #000
+$darkest-gray: lighten($black, 10%)
+$darker-gray: lighten($black, 20%)
+$darken-gray: lighten($black, 30%)
+$dark-gray: lighten($black, 40%)
+$gray: lighten($black, 50%)
+$light-gray: lighten($black, 60%)
+$lighten-gray: lighten($black, 70%)
+$lighter-gray: lighten($black, 80%)
+$lightest-gray: lighten($black, 90%)
+$white: #fff
+
+
+$red: #F44336
+$deep-orange: #FF5722
+$pink: #E91E63
+$purple: #9C27B0
+$deep-purple: #673AB7
+$indigo: #3F51B5
+$blue: #2196F3
+$light-blue: #03A9F4
+$cyan: #00BCD4
+$teal: #009688
+$green: #4CAF50
+$light-green: #8BC34A
+$lime: #CDDC39
+$yellow: #FFEB3B
+$amber: #FFC107
+$orange: #FF9800
+$brown: #795548
+$blue-grey: #607D8B
+
+// Colores Plantilla -----------------------------------
+
+$color-sistema-texto: #12263F
+
+$color-sistema-a: #111e61
+$color-sistema-b: #727997
+$color-sistema-c: #b0c0d2
+$color-sistema-d: #d2e1f1
+$color-sistema-e: #D8ECFF
+$color-sistema-f: #e8e8e8
+$color-sistema-g: #f3f9ff
+$color-sistema-h: #F6F6F6
+
+$color-institucional: #ff8f00
+
+
+// Colores Curso ---------------------------------------
+
+$color-primario: #522981
+$color-secundario: #7DD3E9
+$color-acento-contenido: #FF4A69
+$color-acento-botones: #FFCD0D
+$color-adicional-1: #CDDC39
+$color-adicional-2: #00BCD4
+
+// Color Tipografias -----------------------------------
+$color-headers: $color-sistema-texto
+
+$color-tipografia: $color-sistema-texto
+
+$color-etiqueta-fondo: $color-primario
+$color-etiqueta-texto: $white
+
+//color Links ------------------------------------------
+$color-link: $color-sistema-texto
+$color-link-hover: darken($color-sistema-texto, 25%)
+
+// Color Botones ---------------------------------------
+$color-btn-fondo: $color-acento-botones
+$color-btn-texto: $color-sistema-texto
+
+// Colores banner --------------------------------------
+$color-banner-fondo: $color-primario
+$color-banner-text: $white
+
+// Colores anexos
+$color-fondo-anexo: $color-sistema-g
+$color-texto-anexo: $blue
+
+// Colores Seleccion
+$selection-color: $blue !important
+$selection-font-color: $white !important
+
+// Colores y estados de validacion
+$color-success: lighten($green, 10%)
+$color-info: lighten($light-blue, 15%)
+$color-warning: lighten($yellow, 15%)
+$color-danger: desaturate($red, 15%)
+
+// -----------------------------------------------------
+// TIPOGRAFIAS -----------------------------------------
+// -----------------------------------------------------
+
+$base-thin-font-weight: 100
+$base-medium-font-weight: 400
+$base-bold-font-weight: 700
+$base-black-font-weight: 900
+
+$base-font-family: 'Roboto', sans-serif
+$base-font-size: 16px
+$base-font-weight: $base-medium-font-weight
+$base-line-height: 1.5
+
+$heading-font-family: $base-font-family
+$heading-font-weight: $base-black-font-weight
+$heading-line-height: 1.2
+
+$code-font-family: "Lucida Console", "Courier New", monospace
+
+$h1-font-size: 2em
+$h2-font-size: 1.5em
+$h3-font-size: 1.25em
+$h4-font-size: 1.125em
+$h5-font-size: 1em
+$h6-font-size: 0.875em
+
+$paragraph-font-family: $base-font-family
+$paragraph-font-size: 1em
+$paragraph-font-weight: $base-font-weight
+$paragraph-line-height: $base-line-height
+
+// Tipografias Links -----------------------------------
+$link-font-family: $base-font-family
+$link-font-size: 1em
+$link-font-weight: $base-font-weight
+
+$label-font-size: 1em
+$label-font-family: $base-font-family
+$label-font-weight: $heading-font-weight
+
+
+// -----------------------------------------------------
+// OTROS TAMAÑOS ---------------------------------------
+// -----------------------------------------------------
+
+$base-border-radius: 5px
+$base-spacing: $base-line-height * 1em
+$small-spacing: $base-spacing / 2
+$big-spacing: $base-spacing * 2
+$base-z-index: 0
+
+// Bordes
+$base-border-color: $color-sistema-f
+$base-border: 1px solid $base-border-color
+
+// Formularios -----------------------------------------
+$placeholder-color: $light-gray
+$form-background-color: white
+$form-box-shadow: inset 0 1px 3px rgba($black, 0.06)
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($color-primario, $lightness: -5%, $alpha: -0.3)
+
+// Tables ----------------------------------------------
+$table-header-bg-color: $color-sistema-f
+$table-header-color: $color-sistema-a
+
+// Animations ------------------------------------------
+$base-duration: 150ms
+$base-timing: ease-in-out
+
+// BREAKPOINTS -----------------------------------------
+$bp-min-xxl: 1400px
+$bp-min-xl: 1200px
+$bp-min-lg: 992px
+$bp-min-md: 768px
+$bp-min-sm: 576px
+
+$bp-max-xl: 1400px
+$bp-max-lg: 1200px
+$bp-max-md: 992px
+$bp-max-sm: 768px
+$bp-max-xs: 576px
+
+// -----------------------------------------------------
+// COMPONENTES -----------------------------------------
+// -----------------------------------------------------
+.actividad
+  background-color: #F2F2F2  
+// Imágen banner principal -----------------------------
+$banner-principal-img-y: '' // 'arriba','abajo',''
+$banner-principal-img-x: '' // 'derecha',''
+
+// .tarjeta-avatar -----------------------------------
+$tarjeta-avatar-b-ancho-img: 20%
+$tarjeta-avatar-ancho-img: 150px
+
+
+// -----------------------------------------------------
+// VARIABLES DE COMPATIBILIDAD -------------------------
+// -----------------------------------------------------
+
+$color-btn-b-fondo: $color-acento-contenido
+$color-btn-b-texto: $white
