@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="132" viewBox="0 0 144 132">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="58.321" height="58.321" fill="#404040" stroke="#404040" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_28" data-name="Grupo 28" transform="translate(-8 -13)">
+    <path id="blob_4_" data-name="blob(4)" d="M72.394-16.486c5.57,20.461-12.049,45.014-36.375,63.428S-19.452,77.861-41.618,64.789C-63.9,51.717-77.2,13.3-67.194-13.3-57.191-40.016-23.771-54.679,7.261-54,38.293-53.2,66.938-36.833,72.394-16.486Z" transform="translate(78.572 72.02)" fill="#fff0e5"/>
+    <g id="Grupo_3" data-name="Grupo 3" transform="translate(171.665 162.676) rotate(180)">
+      <text id="_" data-name="+" transform="translate(92.665 104.676)" fill="#ff6b00" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.99" y="0">+</tspan></text>
+      <text id="_2" data-name="+" transform="translate(32.665 120.676)" fill="#ff6b00" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.99" y="0">+</tspan></text>
+      <text id="_3" data-name="+" transform="translate(112.665 36.676)" fill="#ff6b00" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-5.99" y="0">+</tspan></text>
+      <circle id="Elipse_1" data-name="Elipse 1" cx="4" cy="4" r="4" transform="translate(22.665 39.676)" fill="#ff6b00"/>
+      <circle id="Elipse_2" data-name="Elipse 2" cx="4" cy="4" r="4" transform="translate(49.665 132.676)" fill="#ff6b00"/>
+      <circle id="Elipse_5" data-name="Elipse 5" cx="4" cy="4" r="4" transform="translate(125.665 128.676)" fill="#ff6b00"/>
+      <circle id="Elipse_6" data-name="Elipse 6" cx="10" cy="10" r="10" transform="translate(62.665 27.676)" fill="#ff6b00" opacity="0.1"/>
+      <circle id="Elipse_7" data-name="Elipse 7" cx="10" cy="10" r="10" transform="translate(125.665 93.676)" fill="#ff6b00" opacity="0.1"/>
+      <circle id="Elipse_11" data-name="Elipse 11" cx="7" cy="7" r="7" transform="translate(141.665 19.676)" fill="#ff6b00" opacity="0.1"/>
+      <circle id="Elipse_12" data-name="Elipse 12" cx="7" cy="7" r="7" transform="translate(21.665 135.676)" fill="#ff6b00" opacity="0.1"/>
+      <circle id="Elipse_8" data-name="Elipse 8" cx="10" cy="10" r="10" transform="translate(59.665 122.676)" fill="#ff6b00" opacity="0.1"/>
+      <g id="Elipse_3" data-name="Elipse 3" transform="translate(121.665 89.676)" fill="none" stroke="#ff6b00" stroke-width="2">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3" fill="none"/>
+      </g>
+      <g id="Elipse_4" data-name="Elipse 4" transform="translate(28.665 69.676)" fill="none" stroke="#ff6b00" stroke-width="2">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_13" data-name="Grupo 13" transform="translate(-1.227 -4.396)">
+      <g id="Grupo_10" data-name="Grupo 10" transform="translate(40 36)">
+        <circle id="Elipse_13" data-name="Elipse 13" cx="13" cy="13" r="13" transform="translate(0.227 0.396)" fill="#fff"/>
+        <g id="Icon_feather-check-circle" data-name="Icon feather-check-circle" transform="translate(1.102 1.102)">
+          <path id="Trazado_18" data-name="Trazado 18" d="M26.933,13.864v1.1a11.967,11.967,0,1,1-7.1-10.937" transform="translate(-3 -2.991)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path id="Trazado_19" data-name="Trazado 19" d="M23.9,6l-7.147,7.155" transform="translate(-8.364 2.39)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path id="Trazado_41" data-name="Trazado 41" d="M7.147,0,0,7.155" transform="translate(15.544 8.394) rotate(90)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        </g>
+      </g>
+      <g id="Grupo_16" data-name="Grupo 16" transform="translate(40 104.338)">
+        <circle id="Elipse_13-2" data-name="Elipse 13" cx="13" cy="13" r="13" transform="translate(0.227 0.058)" fill="#fff"/>
+        <g id="Icon_feather-check-circle-2" data-name="Icon feather-check-circle" transform="translate(1.102 1.102)">
+          <path id="Trazado_18-2" data-name="Trazado 18" d="M26.933,13.864v1.1a11.967,11.967,0,1,1-7.1-10.937" transform="translate(-3 -2.991)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path id="Trazado_19-2" data-name="Trazado 19" d="M23.9,6l-7.147,7.155" transform="translate(-8.364 2.39)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path id="Trazado_41-2" data-name="Trazado 41" d="M7.147,0,0,7.155" transform="translate(15.544 8.394) rotate(90)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        </g>
+      </g>
+      <g id="Grupo_11" data-name="Grupo 11" transform="translate(40 70.169)">
+        <circle id="Elipse_13-3" data-name="Elipse 13" cx="13" cy="13" r="13" transform="translate(0.227 0.227)" fill="#fff"/>
+        <g id="Icon_feather-check-circle-3" data-name="Icon feather-check-circle" transform="translate(1.102 1.102)">
+          <path id="Trazado_18-3" data-name="Trazado 18" d="M26.933,13.864v1.1a11.967,11.967,0,1,1-7.1-10.937" transform="translate(-3 -2.991)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path id="Trazado_19-3" data-name="Trazado 19" d="M29.057,6,17.09,17.979l-3.59-3.59" transform="translate(-5.123 -3.599)" fill="none" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_15" data-name="Grupo 15" transform="translate(-4 9.097)">
+      <path id="Trazado_40" data-name="Trazado 40" d="M905.655,93.858l3.785-11.922s41.979-44.133,43.3-44.28a41.508,41.508,0,0,1,4.382,0l4.731,4.731v4.731l-44.28,43.144Z" transform="translate(-830 5)" fill="#fff"/>
+      <g id="Grupo_14" data-name="Grupo 14" transform="translate(74 41.742)">
+        <g id="Grupo_8" data-name="Grupo 8" transform="translate(0 0.001)" clip-path="url(#clip-path)">
+          <path id="Trazado_35" data-name="Trazado 35" d="M12.435,53.148a1.107,1.107,0,0,1-.78-.323L3.5,44.667a1.107,1.107,0,0,1,0-1.563L40.088,6.512a1.135,1.135,0,0,1,1.562,0l8.159,8.159a1.1,1.1,0,0,1,0,1.562L13.217,52.826a1.108,1.108,0,0,1-.781.323m-6.6-9.263,6.6,6.6,35.03-35.032-6.6-6.6Z" transform="translate(0.677 1.323)" fill="#404040" stroke="#404040" stroke-width="1"/>
+          <path id="Trazado_36" data-name="Trazado 36" d="M43.431,18a1.1,1.1,0,0,1-.78-.324L33.064,8.092a1.107,1.107,0,0,1,0-1.563l3.449-3.447a1.138,1.138,0,0,1,1.562,0l9.586,9.587a1.1,1.1,0,0,1,0,1.562l-3.447,3.447a1.1,1.1,0,0,1-.781.324M35.407,7.31l8.024,8.026,1.887-1.886L37.293,5.425Z" transform="translate(6.988 0.591)" fill="#404040" stroke="#404040" stroke-width="1"/>
+          <path id="Trazado_37" data-name="Trazado 37" d="M45.433,14.431a1.1,1.1,0,0,1-.78-.323l-8.16-8.159a1.107,1.107,0,0,1,0-1.563L39.68,1.2a4.1,4.1,0,0,1,5.794,0L49.4,5.127a4.1,4.1,0,0,1,0,5.794l-3.186,3.188a1.106,1.106,0,0,1-.781.323m-6.6-9.263,6.6,6.6,2.406-2.406a1.888,1.888,0,0,0,0-2.671L43.913,2.762a1.935,1.935,0,0,0-2.671,0Z" transform="translate(7.72 -0.001)" fill="#404040" stroke="#404040" stroke-width="1"/>
+          <path id="Trazado_38" data-name="Trazado 38" d="M1.1,50.565A1.1,1.1,0,0,1,.052,49.123L3.9,37.115a1.1,1.1,0,0,1,1.832-.444l8.16,8.159a1.105,1.105,0,0,1-.444,1.833L1.442,50.511a1.082,1.082,0,0,1-.337.053M5.452,39.513,2.81,47.753l8.24-2.642Z" transform="translate(0 7.757)" fill="#404040" stroke="#404040" stroke-width="1"/>
+          <path id="Trazado_39" data-name="Trazado 39" d="M7.638,48.355a1.1,1.1,0,0,1-.781-1.886L43.451,9.876a1.1,1.1,0,0,1,1.56,1.562L8.419,48.031a1.1,1.1,0,0,1-.78.324" transform="translate(1.394 2.038)" fill="#404040" stroke="#404040" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

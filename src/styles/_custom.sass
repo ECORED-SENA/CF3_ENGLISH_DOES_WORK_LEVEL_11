@@ -2,18 +2,108 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 80%
+    right: 73%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 70%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 17%
+    right: 25%
+  &-5
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 35%
+    right: 70%
+  &-6
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 81%
+    right: 50%
+  &-7
+    position: absolute
+    top: 10%
+    left: -110.5%
 
 
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+.banner-interno__fondo
+  background-image: url('../assets/curso/temas/intro/bg-interno.svg') !important
+.dialogocolores
+  .dialogoChat__chat__item:nth-child(odd)
+    .dialogoChat__chat__item__message__text__eng
+      span  
+        color: #3c3fa7
+    .dialogoChat__chat__item__message__bubble
+      background-color: #e1e8ff
+      &:before
+        background-color: #e1e8ff
+  .dialogoChat__chat__item:nth-child(even)
+    .dialogoChat__chat__item__message__text__eng
+      span  
+        color: #fc5f65
+    .dialogoChat__chat__item__message__bubble
+      background-color: #fff0f1
+      &:before
+        background-color: #fff0f1
+.dialogoChat__chat__item__message__text__eng
+  font-style: italic
+  font-size: 0.8em
+  font-weight: normal
+.dialogoChat__chat__item__message__bubble
+  background-color: white
+  &:before
+    background-color: white
+.noname
+  .dialogoChat__chat__item__person
+    span
+      display: none !important
+.img-bg
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.bg-card
+  background-image: url(../assets/curso/temas/tema1/card.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: start
+.borde--4
+  .traduccionAudio__chat__item__message__translate-btn
+    background-color: $color-acento-botones !important
+
+  .traduccionAudio__chat__item__message__bubble
+    border: 3px solid $color-acento-botones
+    span
+      color: $color-acento-botones
+      font-weight: normal
+    button
+      background-color: $color-acento-contenido !important
+      img
+        content: url(../assets/curso/audio-negro.svg) !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #3c3fa7
+  color: #fff
+  opacity: 1
+  background-image: url(../assets/curso/temas/tema1/flecha-blanca.svg)
+.dialogo__chat__item__message__translate-btn
+  display: none 

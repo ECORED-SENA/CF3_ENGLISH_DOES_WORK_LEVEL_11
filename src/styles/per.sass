@@ -1,0 +1,76 @@
+
+//Slyder 100% //   
+.slyder-100
+  .horizontal-scroll
+    align-items: normal !important
+//Slyder 100% //   
+
+//Bloque derecha // 
+.bloque-derecha
+  .bloque-texto-g__img
+    left: auto
+    right: 0
+  .bloque-texto-g
+    justify-content: start
+//Bloque derecha // 
+  
+//Borde-punteado 
+.border-dash
+  border: 2px dashed 
+//Borde-punteado 
+
+//Resaltados color//
+span
+  &.r--1
+    color: $color-primario  !important
+  &.r--2
+    color: $color-secundario !important
+  &.r--3
+    color: $color-acento-contenido !important
+  &.r--4
+    color: $color-acento-botones !important
+  &.r--g
+    color: #777777 !important
+//Resaltados color//
+
+//Resaltados fondo//
+span
+  &.f--1
+    background-color: $color-primario
+  &.f--2
+    background-color: $color-secundario
+  &.f--3
+    background-color: $color-acento-contenido
+  &.f--4
+    background-color: $color-acento-botones
+
+// Contenedor traductor // INGLES
+.contenedor-traductor
+  position: relative
+  background-color: #fff1f1
+  padding: 2em
+  border-radius: 10px
+  transition: height 0.5s ease-in-out
+  &__esp
+    border-top: 3px solid #69727c
+    padding-top: 1em
+    margin-top: 1em
+  .boton-traduccion
+    position: absolute
+    bottom: 0
+    right: 0
+    color: $white
+    transform: translateY(100%) translateX(-13%)
+    background-color: #5683f0
+    border-radius: 0px 0px 10px 10px
+    padding: 0.5em 1em
+    cursor: pointer
+    &:hover
+      background-color: darken(#5683f0, 2 )
+.mostrar
+  display: none
+// Contenedor traductor // INGLES
+
+//Margen negativo //
+.margin-n
+  margin: 0 -3rem
