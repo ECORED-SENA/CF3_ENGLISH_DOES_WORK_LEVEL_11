@@ -482,23 +482,23 @@ export default {
           textoIng:
             'And if someone uses as a counterclaim the argument that "they bring negative consequences since they restrict the expression of free personality through clothing", how would you *** it?',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/1.mp3'),
-          palabra: 'wearing',
+          audio: require('@/assets/curso/audios/tema1/d1.mp3'),
+          palabra: 'refute',
         },
         {
           personaje: 'Julia',
           textoIng:
             'The rebuttal would be that, even by *** uniforms, students express their personality and individuality through their hairstyles, use of accessories, and other details.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/1.mp3'),
-          palabra: 'right',
+          audio: require('@/assets/curso/audios/tema1/d2.mp3'),
+          palabra: 'wearing',
         },
         {
           personaje: 'Teacher',
           textoIng: 'You&#39re on the *** track, Julia.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/1.mp3'),
-          palabra: 'refute ',
+          audio: require('@/assets/curso/audios/tema1/d3.mp3'),
+          palabra: 'right ',
         },
       ],
     },
@@ -553,24 +553,24 @@ export default {
         {
           personaje: 'Sue',
           textoIng: 'Julia, what is your position in the debate next week?',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema1/teacher1.mp3'),
         },
         {
           personaje: 'Jim',
           textoIng:
             'Teacher, my position is in favor of the use of uniforms in educational institutions.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema1/julia1.mp3'),
         },
         {
           personaje: 'Sue',
           textoIng: 'And what is your main claim?',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema1/teacher2.mp3'),
         },
         {
           personaje: 'Jim',
           textoIng:
             'That the use of uniforms bring positive consequences to the students since they help to promote an environment of equality and inclusiveness for all regardless of their socioeconomic status.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema1/julia2.mp3'),
         },
       ],
     },

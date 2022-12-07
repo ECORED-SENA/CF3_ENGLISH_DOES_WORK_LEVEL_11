@@ -181,17 +181,17 @@
               span.r--g Por ejemplo:
             TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                 texto="It seems to me that the team has lost already."
-                :audio="require('@/assets/curso/audios/1.mp3')"
+                :audio="require('@/assets/curso/audios/tema2/10.mp3')"
               )
             p.ms-4 Me parece que el equipo ya ha perdido.
             TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                 texto="It's a terrible deal as far as I'm concerned."
-                :audio="require('@/assets/curso/audios/1.mp3')"
+                :audio="require('@/assets/curso/audios/tema2/11.mp3')"
               )
             p.ms-4 Es un trato terrible en lo que a mí respecta.
             TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                 texto="Most people think that carbohydrates are not healthy."
-                :audio="require('@/assets/curso/audios/1.mp3')"
+                :audio="require('@/assets/curso/audios/tema2/12.mp3')"
               )
             p.ms-4 La mayoría de la gente piensa que los carbohidratos no son saludables.
           .col-md-6
@@ -201,39 +201,39 @@
               .ms-5 
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="I would argue that /I would say that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/01.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="In my view"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/02.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="It seems that / It seems to me that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/03.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="I tend to think that/ I feel that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/04.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="As far as I am concerned"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/05.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="Some people argue that / Some people think that / Most people say that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/06.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="It is understood that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/07.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="There is a tendency to believe that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/08.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="One of the main arguments in favor of/against"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/09.mp3')"
                   )
       .py-4.py-md-5.bg-2-5.px-4(titulo="<em>Argumentative expressions </em> <br> / Expresiones argumentativas" :icono="require('@/assets/curso/temas/tema2/11.svg')")
         .row
@@ -246,17 +246,17 @@
               span.r--g Por ejemplo:
             TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                 texto="On the whole, young adults miss the opportunity to enjoy that stage of their life."
-                :audio="require('@/assets/curso/audios/1.mp3')"
+                :audio="require('@/assets/curso/audios/tema2/20.mp3')"
               )
             p.ms-4 En general, los jóvenes adultos pierden la oportunidad de disfrutar de esa etapa de su vida. 
             TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                 texto="More often than not, the court system fails people."
-                :audio="require('@/assets/curso/audios/1.mp3')"
+                :audio="require('@/assets/curso/audios/tema2/21.mp3')"
               )
             p.ms-4 La mayoría de las veces, el sistema judicial le falla a la gente.
             TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                 texto="You are welcome to come along, provided that you come with your parents."
-                :audio="require('@/assets/curso/audios/1.mp3')"
+                :audio="require('@/assets/curso/audios/tema2/22.mp3')"
               )
             p.ms-4 Eres bienvenido a venir, siempre que vengas con tus padres.
           .col-md-6
@@ -266,31 +266,31 @@
               .ms-5 
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="On the whole"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/13.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="I think it is a good idea"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/14.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="Generally speaking"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/15.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="More often than not"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/16.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="Taking into consideration"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/17.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="You might not want to"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/18.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="Provided that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/19.mp3')"
                   )
       .py-4.py-md-5.bg-2-5.px-4(titulo="<em>Expressions to counterclaim</em> <br> / Expresiones para contraargumentar" :icono="require('@/assets/curso/temas/tema2/11.svg')")
         .row
@@ -303,17 +303,17 @@
               span.r--g Por ejemplo:
               TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                   texto="Some religious people find it hard to accept the theory of evolution."
-                  :audio="require('@/assets/curso/audios/1.mp3')"
+                  :audio="require('@/assets/curso/audios/tema2/31.mp3')"
                 )
               p.ms-4 Algunas personas religiosas encuentran difícil aceptar la teoría de la evolución.
               TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                   texto="Critics argue that the movie could have had a better ending."
-                  :audio="require('@/assets/curso/audios/1.mp3')"
+                  :audio="require('@/assets/curso/audios/tema2/32.mp3')"
                 )
               p.ms-4 Los críticos argumentan que la película podría haber tenido un final mejor.
               TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                   texto="I'm not certain whether we are going to have a day off next week or not."
-                  :audio="require('@/assets/curso/audios/1.mp3')"
+                  :audio="require('@/assets/curso/audios/tema2/33.mp3')"
                 )
               p.ms-4 No estoy seguro de si vamos a tener un día libre la próxima semana o no.
           .col-md-6
@@ -323,35 +323,35 @@
               .ms-5 
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="I am unconvinced that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/23.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="I don´t believe that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/24.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="Some people find it hard to accept that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/25.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="There is little evidence that supports the idea that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/26.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="It is unjustifiable  that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/27.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="I disagree with the view"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/28.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="I argue that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/29.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="I am not certain whether"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/30.mp3')"
                   )
       .py-4.py-md-5.bg-2-5.px-4(titulo="<em>Concessive expressions</em> <br> / Expresiones concesivas" :icono="require('@/assets/curso/temas/tema2/11.svg')")
         .row
@@ -364,17 +364,17 @@
               span.r--g Por ejemplo:
               TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                   texto="Despite the fact that literacy indicators are lower than last year, they are still above the minimum required."
-                  :audio="require('@/assets/curso/audios/1.mp3')"
+                  :audio="require('@/assets/curso/audios/tema2/41.mp3')"
                 )
               p.ms-4 A pesar de que los indicadores de alfabetización son más bajos que el año pasado, todavía están por encima del mínimo requerido.
               TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                   texto="It could be argued that the crime victim should not be punished if she was trying to defend herself.     "
-                  :audio="require('@/assets/curso/audios/1.mp3')"
+                  :audio="require('@/assets/curso/audios/tema2/42.mp3')"
                 )
               p.ms-4 Se podría argumentar que la víctima del delito no debería ser castigada si estaba tratando de defenderse.
               TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                   texto="Admittedly, recent events have shown that emergency protocols are not effective enough.    "
-                  :audio="require('@/assets/curso/audios/1.mp3')"
+                  :audio="require('@/assets/curso/audios/tema2/43.mp3')"
                 )
               p.ms-4 Ciertamente, los acontecimientos recientes han demostrado que los protocolos de emergencia no son lo suficientemente efectivos.
           .col-md-6
@@ -384,31 +384,31 @@
               .ms-5 
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="While/Although"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/34.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="Despite the fact that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/35.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="Even though"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/36.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="It could be argued that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/37.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="Admittedly/Certainly"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/38.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="But/However"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/39.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
                     texto="It may be true that"
-                    :audio="require('@/assets/curso/audios/1.mp3')"
+                    :audio="require('@/assets/curso/audios/tema2/40.mp3')"
                   )
     p.mb-5(data-aos='fade-right')
       span.r--1.fw-bold.fst-italic Now let's test how much you learned about the different types of expressions for debating. Listen to and complete the following dialogue. 
@@ -446,7 +446,7 @@ export default {
           textoIng:
             'Do you think that? Despite the *** that many hunters only hunt for “trophies” and waste the meat?',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/f.mp3'),
           palabra: 'fact',
         },
         {
@@ -454,7 +454,7 @@ export default {
           textoIng:
             'There is little *** that supports that idea. In fact, research shows that 85% of hunters either keep the meat to eat or give it to someone else for food.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/p.mp3'),
           palabra: 'evidence',
         },
       ],
@@ -475,25 +475,25 @@ export default {
           personaje: 'Fabio',
           textoIng:
             'Patricia, have you already chosen what your position will be for the next debate?',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/fabio1.mp3'),
         },
         {
           personaje: 'Patricia',
           textoIng:
             '<b> As far as I&#39m concerned</b>, hunting season should be longer.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/patricia1.mp3'),
         },
         {
           personaje: 'Fabio',
           textoIng:
             'Really? I thought you were going to choose to be part of the opposite team.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/fabio2.mp3'),
         },
         {
           personaje: 'Patricia',
           textoIng:
             '<b> No. Taking into consideration that</b> the animal population is too high and that some people hunt for food and need more time to get more food, I think that the best stance is to debate in favor, not against.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/patricia2.mp3'),
         },
       ],
     },
@@ -517,73 +517,73 @@ export default {
           personaje: 'Film Set Worker',
           textoIng:
             'Hey Brody, it looks like the Director wants to debate something with you! <br> In a debate each person has an amount of time to speak, present facts and state their point of view. <br> Oh come on Brody, be confident!',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/SETWORKER1.mp3'),
         },
         {
           personaje: 'Brody',
           textoIng: 'It would be great if Buff was eaten by a shark.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/Camilo1.mp3'),
         },
         {
           personaje: 'Director',
           textoIng: 'I hate sharks.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/ihatesharks.mp3'),
         },
         {
           personaje: 'Brody',
           textoIng: 'But sharks are mega!',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/Camilo2.mp3'),
         },
         {
           personaje: 'Film Set Worker',
           textoIng:
             'No, no, not that confident - speak loudly and clearly but don’t shout.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/SETWORKER2.mp3'),
         },
         {
           personaje: 'Brody',
           textoIng:
             'It would be exciting and hilarious to fire Buff out of a cannon.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/Camilo3.mp3'),
         },
         {
           personaje: 'Film Set Worker',
           textoIng:
             'Yes Brody! You’re being focused, persuasive, funny and convincing if you ask me.<br>And don’t forget to make eye contact, but don’t be too intense.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/SETWORKER3.mp3'),
         },
         {
           personaje: 'Director',
           textoIng: ' It would be too expensive to buy a cannon.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/itwouldbe.wav'),
         },
         {
           personaje: 'Brody',
           textoIng: 'Pfffft. Whatever, dummy!',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/Camilo4.mp3'),
         },
         {
           personaje: 'Film Set Worker',
           textoIng:
             'Oi, Brody…you can challenge the other person’s ideas, but don’t attack them personally.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/SETWORKER4.mp3'),
         },
         {
           personaje: 'Brody',
           textoIng:
             'If Buff gets eaten by a crocodile, then we’re bound to win awards!',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/Camilo5.mp3'),
         },
         {
           personaje: 'Film Set Worker',
           textoIng:
             'Now you’ve got the hang of it! <br> The greatest debaters provide a strong opening and finish with a strong conclusion, while giving evidence and reasons why their argument is best.',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/SETWORKER5.mp3'),
         },
         {
           personaje: 'Director',
           textoIng: 'Action!',
-          audio: require('@/assets/curso/audios/1.mp3'),
+          audio: require('@/assets/curso/audios/tema2/action.mp3'),
         },
       ],
     },
