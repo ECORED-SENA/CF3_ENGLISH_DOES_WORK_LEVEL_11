@@ -12,7 +12,7 @@
           div(slot="textoIngles")
             p.fst-italic  When we #[span.r--2.fw-bold engage in an argumentative debate], we need more than an obvious #[span.r--2.fw-bold statement based on reality]; it does not matter that this is true and that it can be verified, it needs to be something arguable, that generates debate and interest. And unlike argumentative texts, in a debate, the way in which the argument is delivered is also important, not just the content; that is, there are more factors involved, such as #[span.r--2.fw-bold voice tone, discursive style, rhetoric, gestures, and other elements] of non-verbal communication that influence the receptivity of the audience to our message.
           div(slot="textoEspanol")
-            p A la hora de participar en un debate argumentativo, se necesita más que una declaración obvia basada en la realidad; no importa que esta sea cierta y que se pueda comprobar, se necesita que sea algo discutible, que genere debate e interés. Y a diferencia de los textos argumentativos, en un debate también es importante la forma en la que se entrega el argumento, no solo el contenido, o sea, hay más factores involucrados, como el tono de la voz, el estilo discursivo, la retórica, los gestos y otros elementos de la comunicación no verbal que influyen en la receptividad de la audiencia a nuestro mensaje. 
+            p A la hora de #[b participar en un debate argumentativo], se necesita más que una #[b declaración obvia basada en la realidad]; no importa que esta sea cierta y que se pueda comprobar, se necesita que sea algo discutible, que genere debate e interés. Y a diferencia de los textos argumentativos, en un debate también es importante la forma en la que se entrega el argumento, no solo el contenido, o sea, hay más factores involucrados, como el tono de #[b la voz, el estilo discursivo, la retórica, los gestos y otros elementos] de la comunicación no verbal que influyen en la receptividad de la audiencia a nuestro mensaje. 
       .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/1.jpg', alt='' style="border-radius: 20px")
     .tarjeta.p-3.mb-5(style="background-color: #e4ebff ")
       .row.justify-content-center.align-items-center
@@ -27,7 +27,7 @@
           .bg-white.p-5
             DialogoChat(:dialogo="dialogoChat").color-acento-botones.noname.dialogocolores
     h5(data-aos="fade-right").mb-5
-      span.r--4 #[em Parts of a debate argument] 
+      span.r--4 #[em Parts of a debate argument ]  
       span.r--g / Partes de la argumentación de un debate
     .row.justify-content-center.mb-5.align-items-center
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
@@ -358,52 +358,52 @@
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/23.svg', alt='')
-        .tarjeta.p-3(x="48.3%" y="25.5%" numero="+" style=" background-color: #12263f")
+        .tarjeta.p-3(x="48%" y="28.3%" numero="+" style=" background-color: #12263f")
           div(style='border-left: 3px solid white').p-1.mb-3
             .h5.mb-0.fst-italic.text-white Refuting the central point
           p 
             span.r--3.fst-italic Pointing out a flaw in the central point: “The author's main point seems to be x. As he says… But it is wrong for these reasons…” 
             span.text-white / Señalar una falla en la idea central: “El punto principal del autor parece ser x. Como él dice… Pero está mal por estas razones…”
-        .tarjeta.p-3(x="51.4%" y="36.6%" numero="+" style="background-color: #12263f")
+        .tarjeta.p-3(x="51%" y="37.6%" numero="+" style="background-color: #12263f")
           div(style='border-left: 3px solid white').p-1.mb-3
             .h5.mb-0.fst-italic.text-white Refutation
           p 
-            span.r--3.fst-italic Finding a mistake and supporting it by quoting the author. 
+            span.r--3.fst-italic Finding a mistake and supporting it by quoting the author.  
             span.text-white / Encontrar un error y explotarlo citando al autor.
-        .tarjeta.p-3(x="54.8%" y="47%" numero="+" style="background-color: #12263f")
+        .tarjeta.p-3(x="54%" y="47%" numero="+" style="background-color: #12263f")
           div(style='border-left: 3px solid white').p-1.mb-3
-            .h5.mb-0.fst-italic.text-white Counterargument
+            .h5.mb-0.fst-italic.text-white Counterargument 
           p 
-            span.r--3.fst-italic Contradicting with reasoning and/or evidence, aimed only at the original argument.
+            span.r--3.fst-italic Contradicting with reasoning and/or evidence, aimed only at the original argument. 
             span.text-white / Contradecir con razonamiento y/o evidencia, dirigido únicamente al argumento original.
-        .tarjeta.p-3(x="58.3%" y="59.1%" numero="+" style="background-color: #12263f")
+        .tarjeta.p-3(x="57.3%" y="57.4%" numero="+" style="background-color: #12263f")
           div(style='border-left: 3px solid white').p-1.mb-3
             .h5.mb-0.fst-italic.text-white Contradiction
           p 
-            span.r--3.fst-italic Stating the opposing case without supporting evidence.
+            span.r--3.fst-italic Stating the opposing case without supporting evidence. 
             span.text-white  / Expresar el caso contrario sin pruebas que lo sustenten. 
-        .tarjeta.p-3(x="62%" y="71%" numero="+" style="background-color: #12263f")
+        .tarjeta.p-3(x="60.8%" y="67.5%" numero="+" style="background-color: #12263f")
           div(style='border-left: 3px solid white').p-1.mb-3
             .h5.mb-0.fst-italic.text-white Responding to Tone
           p 
-            span.r--3.fst-italic Responding to the writing, not the writer or the message: “The author sounds so flippant!”
+            span.r--3.fst-italic Responding to the writing, not the writer or the message: “The author sounds so flippant!” 
             span.text-white / Responder a la forma, no al mensajero ni al mensaje: “¡El autor suena tan frívolo!”
-        .tarjeta.p-3(x="65.3%" y="82%" numero="+" style="background-color: #12263f")
+        .tarjeta.p-3(x="63.8%" y="77.2%" numero="+" style="background-color: #12263f")
           div(style='border-left: 3px solid white').p-1.mb-3
             .h5.mb-0.fst-italic.text-white Ad Hominem
           p 
-            span.r--3.fst-italic Attacking the writer personally: “He's a senator, of course, he'd say that!”
+            span.r--3.fst-italic Attacking the writer personally: “He's a senator, of course, he'd say that!” 
             span.text-white / Atacar personalmente al escritor: "¡Es senador, por supuesto, diría eso!"
-        .tarjeta.p-3(x="68.1%" y="93.6%" numero="+" style="background-color: #12263f")
+        .tarjeta.p-3(x="66.6%" y="87%" numero="+" style="background-color: #12263f")
           div(style='border-left: 3px solid white').p-1.mb-3
             .h5.mb-0.fst-italic.text-white Name-calling
           p 
-            span.r--3.fst-italic  Using abusive language to invoke fear in the opponent: “You are an idiot!!!”
+            span.r--3.fst-italic  Using abusive language to invoke fear in the opponent: “You are an idiot!!!” 
             span.text-white / Usar lenguaje abusivo para invocar el miedo en el oponente: "¡¡¡Eres un idiota!!!"
     p.mb-5(data-aos='fade-right')
-      span.r--4.fst-italic Now let's see how much you learned about how to present the arguments and speech for a debate. Listen to and complete the following dialogue. 
+      span.r--4.fst-italic Now let's see how much you learned about how to present the arguments and speech for a debate. Listen to and complete the following dialogue.  
       span.r--g / Ahora, veamos cuánto aprendió sobre cómo presentar los argumentos y el discurso para  un debate. Escuche y complete el siguiente diálogo.
-    Dialogo.color-primario(:dialogo="dialogo")
+    Dialogo.color-primario(:dialogo="dialogo").fst-italic
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Past perfect practice
       template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
@@ -559,7 +559,7 @@ export default {
           personaje: 'Jim',
           textoIng:
             'Teacher, my position is in favor of the use of uniforms in educational institutions.',
-          audio: require('@/assets/curso/audios/tema1/julia1.mp3'),
+          audio: require('@/assets/curso/audios/tema1/H3_1.mp3'),
         },
         {
           personaje: 'Sue',
@@ -570,7 +570,7 @@ export default {
           personaje: 'Jim',
           textoIng:
             'That the use of uniforms bring positive consequences to the students since they help to promote an environment of equality and inclusiveness for all regardless of their socioeconomic status.',
-          audio: require('@/assets/curso/audios/tema1/julia2.mp3'),
+          audio: require('@/assets/curso/audios/tema1/H3_2.mp3'),
         },
       ],
     },

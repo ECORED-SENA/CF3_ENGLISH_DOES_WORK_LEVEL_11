@@ -32,10 +32,10 @@
                         | My position is that…
                       li.mb-0
                         i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ")
-                        | In my opinion,…
+                        | In my opinion…
                       li.mb-0
                         i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ")
-                        | I think that..
+                        | I think that...
                 .col-lg-6
                   .tarjeta.color-acento-botones--borde.p-3(style="background-color: #e1e8ff ").border-2.h-100
                     h5.text-center
@@ -48,16 +48,16 @@
                         | Reason is that…
                       li.mb-0
                         i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ")
-                        | Moreover, …
+                        | Moreover…
                       li.mb-0
                         i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ")
-                        | Next, ...
+                        | Next...
                       li.mb-0
                         i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ")
-                        | Again, …
+                        | Again...
                       li.mb-0
                         i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ")
-                        | Without doubt, ...
+                        | Without doubt...
           .col-lg-3.col-7.mb-lg-0.mb-3
             div.img-bg(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/2.svg')})`}").h-100
     .row.justify-content-center.mb-5
@@ -102,15 +102,15 @@
                     img(src='@/assets/curso/temas/tema2/5.svg' alt='AvatarTop' style="width: 250px")
                     .tarjeta.w-100.h-100(style="background-color: #e1e8ff ")
                       .p-4.mt-4
-                        h6.text-center.fst-italic  Expressions to present ideas
+                        h6.text-center.fst-italic  Expressions to present ideas / 
                         .tarjeta.bg-white.p-3.py-1
                           ul.lista-ul--color
                             li
                               i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ")
-                              p.mb-0.fst-italic(style="color: #3c3fa7 ") The most important argument for ... is …
+                              p.mb-0.fst-italic(style="color: #3c3fa7 ") The most important argument for... is…
                             li
                               i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ")
-                              p.mb-0.fst-italic(style="color: #3c3fa7 ") The main idea/thing is ...
+                              p.mb-0.fst-italic(style="color: #3c3fa7 ") The main idea/thing is...
                   .tarjeta-avatar
                     img(src='@/assets/curso/temas/tema2/6.svg' alt='AvatarTop' style="width: 250px")
                     .tarjeta.w-100.h-100(style="background-color: #e1e8ff ")
@@ -120,10 +120,10 @@
                           ul.lista-ul--color
                             li
                               i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ") 
-                              p.mb-0.fst-italic(style="color: #3c3fa7 ") While you might say that ..., it's important to remember that ...
+                              p.mb-0.fst-italic(style="color: #3c3fa7 ") While you might say that..., it's important to remember that...
                             li
                               i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ") 
-                              p.mb-0.fst-italic(style="color: #3c3fa7 ") I agree with you that ... On the other hand, ...
+                              p.mb-0.fst-italic(style="color: #3c3fa7 ") I agree with you that... On the other hand...
                   .tarjeta-avatar
                     img(src='@/assets/curso/temas/tema2/7.svg' alt='AvatarTop' style="width: 250px")
                     .tarjeta.w-100.h-100(style="background-color: #e1e8ff ")
@@ -146,10 +146,10 @@
                           ul.lista-ul--color
                             li
                               i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ") 
-                              p.mb-0.fst-italic(style="color: #3c3fa7 ") My final thought is … 
+                              p.mb-0.fst-italic(style="color: #3c3fa7 ") My final thought is… 
                             li
                               i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ") 
-                              p.mb-0.fst-italic(style="color: #3c3fa7 ") Let me recap/recapitulate my point ...
+                              p.mb-0.fst-italic(style="color: #3c3fa7 ") Let me recap/recapitulate my point...
     .bg-2-4.margin-n.p-5.mb-5
       .row.justify-content-center.mb-5
         .col-lg-2.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/10.svg', alt='')
@@ -165,13 +165,14 @@
               h4.fst-italic.mb-0 Debating in the set
             .contenedor-dialogo.p-4
               DialogoChat(:dialogo="dialogoChat2").color-acento-botones
+            figcaption Fuente: https://www.bbc.co.uk/bitesize/topics/z2ffr82/articles/ztx8pbk
     .tarjeta.color-acento-contenido.p-4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-1.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/9.svg', alt='')
         .col-lg-11(data-aos="fade-left")
           p.mb-0 #[em #[b Let’s see some examples of sentences with expressions for debating:]] / Veamos algunos ejemplos de frases con expresiones para debatir:
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5.bg-2-5.px-4(titulo="<em>Expressions to present ideas</em>" :icono="require('@/assets/curso/temas/tema2/11.svg')")
+      .py-4.py-md-5.bg-2-5.px-4(titulo="<em>Expressions to present ideas</em> / Expresiones para presentar ideas." :icono="require('@/assets/curso/temas/tema2/11.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4.fst-italic
@@ -200,7 +201,7 @@
                 h4.ms-5.mb-0 Expressions to present ideas
               .ms-5 
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
-                    texto="I would argue that /I would say that"
+                    texto="I would argue that / I would say that"
                     :audio="require('@/assets/curso/audios/tema2/01.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
@@ -212,7 +213,7 @@
                     :audio="require('@/assets/curso/audios/tema2/03.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
-                    texto="I tend to think that/ I feel that"
+                    texto="I tend to think that / I feel that"
                     :audio="require('@/assets/curso/audios/tema2/04.mp3')"
                   )
                 TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-botones.text-white(
@@ -242,7 +243,7 @@
               span.r--4.fst-italic   Argumentative expressions
               span.r--g Expresiones argumentativas
             p 
-              span.fst-italic For example:  
+              span.fst-italic For example: /  
               span.r--g Por ejemplo:
             TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                 texto="On the whole, young adults miss the opportunity to enjoy that stage of their life."
@@ -299,7 +300,7 @@
               span.r--4 Expressions to counterclaim /
               span.r--g Expresiones para contraargumentar
             p 
-              span.fst-italic For example:  
+              span.fst-italic For example: / 
               span.r--g Por ejemplo:
               TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                   texto="Some religious people find it hard to accept the theory of evolution."
@@ -360,7 +361,7 @@
               span.r--4 Concessive expressions
               span.r--g / Expresiones concesivas 
             p 
-              span.fst-italic For example:  
+              span.fst-italic For example: /  
               span.r--g Por ejemplo:
               TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                   texto="Despite the fact that literacy indicators are lower than last year, they are still above the minimum required."
@@ -565,7 +566,7 @@ export default {
         {
           personaje: 'Film Set Worker',
           textoIng:
-            'Oi, Brody…you can challenge the other person’s ideas, but don’t attack them personally.',
+            'Oi, Brody… You can challenge the other person’s ideas, but don’t attack them personally.',
           audio: require('@/assets/curso/audios/tema2/SETWORKER4.mp3'),
         },
         {
