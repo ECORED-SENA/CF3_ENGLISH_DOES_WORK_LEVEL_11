@@ -240,7 +240,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4
-              span.r--4.fst-italic   Argumentative expressions /
+              span.r--4.fst-italic   Argumentative expressions / 
               span.r--g Expresiones argumentativas
             p 
               span.fst-italic For example: /  
