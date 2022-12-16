@@ -136,7 +136,7 @@
                               p.mb-0.fst-italic(style="color: #3c3fa7 ") It is unjustifiable to say that...
                               li
                                 i.fas.fa-circle.fa-xs(style="color: #3c3fa7 ")
-                                p.mb-0.fst-italic(style="color: #3c3fa7 ") I don´t believe that...
+                                p.mb-0.fst-italic(style="color: #3c3fa7 ") I don't believe that...
                   .tarjeta-avatar
                     img(src='@/assets/curso/temas/tema2/8.svg' alt='AvatarTop' style="width: 250px")
                     .tarjeta.w-100.h-100(style="background-color: #e1e8ff ")
@@ -178,7 +178,7 @@
             h4.fst-italic
               span.r--4  Expressions to present ideas
             p 
-              span.fst-italic For example:  
+              span.fst-italic For example: /
               span.r--g Por ejemplo:
             TarjetaAudio.color-acento-botones.mb-1.text-small.border-1.bg-white(
                 texto="It seems to me that the team has lost already."
@@ -240,7 +240,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4
-              span.r--4.fst-italic   Argumentative expressions
+              span.r--4.fst-italic   Argumentative expressions 
               span.r--g Expresiones argumentativas
             p 
               span.fst-italic For example: /  
@@ -297,7 +297,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4.fst-italic
-              span.r--4 Expressions to counterclaim /
+              span.r--4 Expressions to counterclaim / 
               span.r--g Expresiones para contraargumentar
             p 
               span.fst-italic For example: / 
@@ -358,7 +358,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4.fst-italic
-              span.r--4 Concessive expressions
+              span.r--4 Concessive expressions 
               span.r--g / Expresiones concesivas 
             p 
               span.fst-italic For example: /  

@@ -60,60 +60,113 @@
             SlyderA.px-5.d-none.d-lg-block
               .tarjeta.bg-white.p-5.mx-5
                 h4.text-center.fst-italic #[span.r--1 Statement vs. Claim]
-                .d-flex.justify-content-center
-                  .borde--4
-                    TraduccionAudio.color-secundario(:dialogo="traduccionAudio").mb-4
                 .row.justify-content-center.mb-5
+                  .col-lg-3.col-8.mb-lg-0.mb-3
+                    img(src='@/assets/curso/temas/tema1/8.svg', alt='')
+
+                  .col-lg-9
+                    traductor.color-acento-botones--borde
+                      div(slot="textoIngles")
+                        p.fst-italic.mb-0 We have to differentiate well between a statement based on facts that is obviously true and a claim that is up to debate.
+                      div(slot="textoEspanol")
+                        p Tenemos que diferenciar bien entre una declaración basada en hechos que es obviamente cierta y una afirmación que está sujeta a debate. 
+                .row.justify-content-center.mb-3.align-items-center
                   .col-lg-10
-                    .row.justify-content-center.mb-5.align-items-center
-                      .col-lg-3
-                        img(src='@/assets/curso/temas/tema1/8.svg', alt='')
-                      .col-lg-9
-                        img(src='@/assets/curso/temas/tema1/9.svg', alt='')
+                    img(src='@/assets/curso/temas/tema1/c1.svg', alt='')
+                  .col-lg-1
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c1.mp3')").me-5
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-10
+                    img(src='@/assets/curso/temas/tema1/c2.svg', alt='')
+                  .col-lg-1
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c2.mp3')").me-5
+
               .tarjeta.bg-white.p-5
-                h4.text-center.fw-bold 
+                h4.text-center.fw-bold.mb-4
                     span.r--1 #[em Reason ]
                     span.r--g / Razón
-                .d-flex.justify-content-center
-                  .borde--4
-                    TraduccionAudio.color-secundario(:dialogo="traduccionAudio1").mb-4
                 .row.justify-content-center.mb-5
+                  .col-lg-3.col-8.mb-lg-0.mb-3
+                    img(src='@/assets/curso/temas/tema1/8.svg', alt='')
+
+                  .col-lg-9
+                    traductor.color-acento-botones--borde
+                      div(slot="textoIngles")
+                        p.fst-italic.mb-0 These are statements, motives, arguments that support our initial claim.
+                      div(slot="textoEspanol")
+                        p Estas son declaraciones, motivos, argumentos que sustentan nuestra afirmación inicial. 
+                .row.justify-content-center.mb-3.align-items-center
                   .col-lg-10
-                    img(src='@/assets/curso/temas/tema1/10.svg', alt='')
+                    img(src='@/assets/curso/temas/tema1/c3.svg', alt='')
+                  .col-lg-1
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c3.mp3')").me-5
               .tarjeta.bg-white.p-5
                 h4.text-center.fw-bold 
                     span.r--1 #[em Counterclaim ]
                     span.r--g / Contrademanda 
-                .d-flex.justify-content-center
-                  .borde--4
-                    TraduccionAudio.color-secundario(:dialogo="traduccionAudio2").mb-4
                 .row.justify-content-center.mb-5
+                  .col-lg-3.col-8.mb-lg-0.mb-3
+                    img(src='@/assets/curso/temas/tema1/8.svg', alt='')
+
+                  .col-lg-9
+                    traductor.color-acento-botones--borde
+                      div(slot="textoIngles")
+                        p.fst-italic.mb-0 This is what the opposing side is arguing about the issue. We can think of some counterclaims ourselves at the time of designing and organizing our speech for debate, thus anticipating what we must be prepared to refute the opposing party. 
+                      div(slot="textoEspanol")
+                        p Esto es lo que argumenta la parte contraria sobre el tema. Podemos pensar en algunas contrademandas nosotros mismos en el momento de plantear y organizar nuestro discurso para el debate, previendo así en qué es lo que debemos estar preparados para refutarle a la parte contraria. 
+                .row.justify-content-center.mb-3.align-items-center
                   .col-lg-10
-                    img(src='@/assets/curso/temas/tema1/11.svg', alt='')
+                    img(src='@/assets/curso/temas/tema1/c4.svg', alt='')
+                  .col-lg-1
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c4.mp3')").me-5
               .tarjeta.bg-white.p-5
                 h4.text-center.fw-bold 
                   span.r--1 #[em Rebuttal  ]
                   span.r--g / Refutación
-                .d-flex.justify-content-center
-                  .borde--4
-                    TraduccionAudio.color-secundario(:dialogo="traduccionAudio3").mb-4
                 .row.justify-content-center.mb-5
+                  .col-lg-3.col-8.mb-lg-0.mb-3
+                    img(src='@/assets/curso/temas/tema1/8.svg', alt='')
+
+                  .col-lg-9
+                    traductor.color-acento-botones--borde
+                      div(slot="textoIngles")
+                        p.fst-italic.mb-0 This is our response to the counterclaim and what further supports our initial claim.
+                      div(slot="textoEspanol")
+                        p Esta es nuestra respuesta a la contrademanda y lo que apoya aún más nuestra afirmación inicial. 
+                .row.justify-content-center.mb-3.align-items-center
                   .col-lg-10
-                    img(src='@/assets/curso/temas/tema1/12.svg', alt='')
+                    img(src='@/assets/curso/temas/tema1/c5.svg', alt='')
+                  .col-lg-1
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c5.mp3')").me-5
             SlyderE(indicadores="derecha").d-lg-none.d-block.px-4.mb-4
               div
                 h4.text-center.fst-italic.mb-3 #[span.r--1 Statement vs. Claim]
-                .d-flex.justify-content-center
-                  .borde--4
-                    TraduccionAudio.color-secundario(:dialogo="traduccionAudio").mb-4
-                img(src='@/assets/curso/temas/tema1/9-m.svg', alt='')
+                traductor.color-acento-botones--borde
+                      div(slot="textoIngles")
+                        p.fst-italic.mb-0 We have to differentiate well between a statement based on facts that is obviously true and a claim that is up to debate.
+                      div(slot="textoEspanol")
+                        p Tenemos que diferenciar bien entre una declaración basada en hechos que es obviamente cierta y una afirmación que está sujeta a debate. 
+                .row.justify-content-center.mb-5
+                    .col-lg-10
+                      img(src='@/assets/curso/temas/tema1/9-m.svg', alt='')
+                .row.justify-content-center.mb-3
+                  .col-6
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c1.mp3')")
+                .row.justify-content-center.mb-3
+                  .col-6
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c2.mp3')")
               div
                 h4.text-center.fw-bold.mb-3
                   span.r--1 #[em Reason ]
                   span.r--g / Razón
-                .d-flex.justify-content-center
-                    .borde--4
-                      TraduccionAudio.color-secundario(:dialogo="traduccionAudio1").mb-4
+                traductor.color-acento-botones--borde
+                      div(slot="textoIngles")
+                        p.fst-italic.mb-0 These are statements, motives, arguments that support our initial claim.
+                      div(slot="textoEspanol")
+                        p Estas son declaraciones, motivos, argumentos que sustentan nuestra afirmación inicial.
+                .row.justify-content-center.mb-3
+                  .col-6
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c3.mp3')")
                 .row.justify-content-center.mb-5
                     .col-lg-10
                       img(src='@/assets/curso/temas/tema1/10-m.svg', alt='')
@@ -121,9 +174,14 @@
                 h4.text-center.fw-bold 
                       span.r--1 #[em Counterclaim ]
                       span.r--g / Contrademanda 
-                .d-flex.justify-content-center
-                  .borde--4
-                    TraduccionAudio.color-secundario(:dialogo="traduccionAudio2").mb-4
+                traductor.color-acento-botones--borde
+                      div(slot="textoIngles")
+                        p.fst-italic.mb-0 This is what the opposing side is arguing about the issue. We can think of some counterclaims ourselves at the time of designing and organizing our speech for debate, thus anticipating what we must be prepared to refute the opposing party. 
+                      div(slot="textoEspanol")
+                        p Esto es lo que argumenta la parte contraria sobre el tema. Podemos pensar en algunas contrademandas nosotros mismos en el momento de plantear y organizar nuestro discurso para el debate, previendo así en qué es lo que debemos estar preparados para refutarle a la parte contraria. 
+                .row.justify-content-center.mb-3
+                  .col-6
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c4.mp3')")
                 .row.justify-content-center.mb-5
                   .col-lg-10
                     img(src='@/assets/curso/temas/tema1/11-m.svg', alt='')
@@ -131,9 +189,14 @@
                 h4.text-center.fw-bold 
                     span.r--1 #[em Rebuttal  ]
                     span.r--g / Refutación
-                .d-flex.justify-content-center
-                  .borde--4
-                    TraduccionAudio.color-secundario(:dialogo="traduccionAudio3").mb-4
+                traductor.color-acento-botones--borde
+                      div(slot="textoIngles")
+                        p.fst-italic.mb-0 This is our response to the counterclaim and what further supports our initial claim.
+                      div(slot="textoEspanol")
+                        p Esta es nuestra respuesta a la contrademanda y lo que apoya aún más nuestra afirmación inicial. 
+                .row.justify-content-center.mb-3
+                  .col-6
+                    Audio.color-acento-contenido.mx-3(:audio="require('@/assets/curso/audios/tema1/c5.mp3')")
                 .row.justify-content-center.mb-5
                   .col-lg-10
                     img(src='@/assets/curso/temas/tema1/12-m.svg', alt='')
@@ -176,7 +239,7 @@
                           p 
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/1.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     .col-lg-6.col-8: img(src='@/assets/curso/temas/tema1/15.png', alt='')
@@ -198,7 +261,7 @@
                           p 
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/2.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     .col-lg-6.col-8: img(src='@/assets/curso/temas/tema1/16.png', alt='')
@@ -220,7 +283,7 @@
                           p 
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/3.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     .col-lg-6.col-8: img(src='@/assets/curso/temas/tema1/17.png', alt='')
@@ -242,7 +305,7 @@
                           p 
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/4.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     .col-lg-6.col-8: img(src='@/assets/curso/temas/tema1/18.png', alt='')
@@ -264,7 +327,7 @@
                           p 
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/5.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     .col-lg-6.col-8: img(src='@/assets/curso/temas/tema1/19.svg', alt='')
@@ -299,7 +362,7 @@
                           p 
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/6.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     .col-lg-6.col-8: img(src='@/assets/curso/temas/tema1/20.png', alt='')
@@ -339,7 +402,7 @@
                           p 
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
-                        :audio="require('@/assets/curso/audios/1.mp3')"
+                        :audio="require('@/assets/curso/audios/tema1/7.mp3')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                     .col-lg-6.col-8: img(src='@/assets/curso/temas/tema1/21.png', alt='')
@@ -407,6 +470,7 @@
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Past perfect practice
       template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+    
     
 
 
@@ -480,9 +544,9 @@ export default {
         {
           personaje: 'Teacher',
           textoIng:
-            'And if someone uses as a counterclaim the argument that "they bring negative consequences since they restrict the expression of free personality through clothing", how would you *** it?',
+            'And if someone uses as a counterclaim the argument that "they brings negative consequences since they restrict the expression of free personality through clothing", how would you *** it?',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/d1.mp3'),
+          audio: require('@/assets/curso/audios/tema1/H11_1.mp3'),
           palabra: 'refute',
         },
         {
@@ -497,7 +561,7 @@ export default {
           personaje: 'Teacher',
           textoIng: 'You&#39re on the *** track, Julia.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/d3.mp3'),
+          audio: require('@/assets/curso/audios/tema1/H11_2.mp3'),
           palabra: 'right ',
         },
       ],

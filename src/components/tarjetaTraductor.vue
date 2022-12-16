@@ -63,4 +63,20 @@ export default {
   &.color-acento-botones
     .contenedor-traductor
       background-color: lighten($color-acento-botones, 26%)
+  &.color-primario--borde
+    .contenedor-traductor
+      background-color: $white
+      border: 3px solid $color-primario
+  &.color-secundario--borde
+    .contenedor-traductor
+      background-color: $white
+      border: 3px solid $color-secundario
+  &.color-acento-contenido--borde
+    .contenedor-traductor
+      background-color: $white
+      border: 3px solid $color-acento-contenido
+  &.color-acento-botones--borde
+    .contenedor-traductor
+      background-color: $white
+      border: 3px solid $color-acento-botones
 </style>
