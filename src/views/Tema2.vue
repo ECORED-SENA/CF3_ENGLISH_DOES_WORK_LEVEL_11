@@ -102,7 +102,7 @@
                     img(src='@/assets/curso/temas/tema2/5.svg' alt='AvatarTop' style="width: 250px")
                     .tarjeta.w-100.h-100(style="background-color: #e1e8ff ")
                       .p-4.mt-4
-                        h6.text-center.fst-italic  Expressions to present ideas / 
+                        h6.text-center.fst-italic  Expressions to present ideas 
                         .tarjeta.bg-white.p-3.py-1
                           ul.lista-ul--color
                             li
@@ -172,11 +172,13 @@
         .col-lg-11(data-aos="fade-left")
           p.mb-0 #[em #[b Let’s see some examples of sentences with expressions for debating:]] / Veamos algunos ejemplos de frases con expresiones para debatir:
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5.bg-2-5.px-4(titulo="<em>Expressions to present ideas</em> / Expresiones para presentar ideas." :icono="require('@/assets/curso/temas/tema2/11.svg')")
+      .py-4.py-md-5.bg-2-5.px-4(titulo="<em>Expressions to present ideas</em> / Expresiones para presentar ideas" :icono="require('@/assets/curso/temas/tema2/11.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4.fst-italic
-              span.r--4  Expressions to present ideas
+              span.r--4  Expressions to present ideas / 
+              span.r--g Expresiones para presentar ideas
+
             p 
               span.fst-italic For example: / 
               span.r--g Por ejemplo:
