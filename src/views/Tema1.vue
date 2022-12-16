@@ -544,7 +544,7 @@ export default {
         {
           personaje: 'Teacher',
           textoIng:
-            'And if someone uses as a counterclaim the argument that "they brings negative consequences since they restrict the expression of free personality through clothing", how would you *** it?',
+            'And if someone uses as a counterclaim the argument that "they bring negative consequences since they restrict the expression of free personality through clothing", how would you *** it?',
           textoEsp: '',
           audio: require('@/assets/curso/audios/tema1/H11_1.mp3'),
           palabra: 'refute',
@@ -633,7 +633,7 @@ export default {
         {
           personaje: 'Jim',
           textoIng:
-            'That the use of uniforms bring positive consequences to the students since they help to promote an environment of equality and inclusiveness for all regardless of their socioeconomic status.',
+            'That the use of uniforms brings positive consequences to the students since they help to promote an environment of equality and inclusiveness for all regardless of their socioeconomic status.',
           audio: require('@/assets/curso/audios/tema1/H3_2.mp3'),
         },
       ],
