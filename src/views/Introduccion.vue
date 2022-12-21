@@ -19,7 +19,7 @@
               p Este nivel de formación bilingüe se enfoca en #[span.r--1.fw-bold cómo argumentar de forma oral], o más puntualmente, en cómo debatir. Para esto, se va a exponer cuáles son cada una de las #[span.r--1.fw-bold  partes de un debate] y se va a dar un paso a paso minucioso sobre qué se debe hacer para plantear y preparar #[span.r--1.fw-bold un buen discurso] que nos ayude a argumentar mejor en un debate; también vamos a ver #[span.r--1.fw-bold  qué no hacer] a la hora de estar en #[span.r--1.fw-bold desacuerdo con alguien] y cómo usar diferentes expresiones útiles para debatir que presentan mejor nuestro discurso.  Partiendo de lo anterior, le damos la bienvenida al estudio de este componente formativo y, para comenzar, se invita a explorar el video que se presenta a continuación.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7sS46SdWgLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     
 </template>
