@@ -156,8 +156,8 @@
         .col-lg-10(data-aos="fade-left")
           .tarjeta.bg-white.p-2.px-3
             p.mb-0 
-              span.fw-bold.fst-italic A film director meets his partner on the #[span.r--2 production set], and they engage in a debate about very luxurious cars. We are invited to explore the video below: 
-              span.r--g / Un director de cine se encuentra con su compañero en el set de producción y entablan un debate acerca de carros muy lujosos. Se invita a explorar el díalogo que se presenta a continuación:
+              span.fw-bold.fst-italic A film director meets his partner on the #[span.r--2 production set], and they engage in a debate about very luxurious cars. We are invited to explore the dialog below: 
+              span.r--g / Un director de cine se encuentra con su compañero en el set de producción y entablan un debate acerca de carros muy lujosos. Se invita a explorar el diálogo que se presenta a continuación:
       .row.justify-content-center.mb-5
         .col-lg-10
           .tarjeta.color-primario--borde.border-2.overflow-hidden(style="background-color: #edf1fd ")
@@ -165,7 +165,7 @@
               h4.fst-italic.mb-0 Debating in the set
             .contenedor-dialogo.p-4
               DialogoChat(:dialogo="dialogoChat2").color-acento-botones
-            figcaption Fuente: https://www.bbc.co.uk/bitesize/topics/z2ffr82/articles/ztx8pbk
+            //- figcaption Fuente: https://www.bbc.co.uk/bitesize/topics/z2ffr82/articles/ztx8pbk
     .tarjeta.color-acento-contenido.p-4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-1.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/9.svg', alt='')
@@ -419,7 +419,7 @@
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) To practice types of expressions
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 </template>
 
 <script>

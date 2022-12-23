@@ -213,7 +213,7 @@
                   br
                   |Arguing is an activity that takes place in many situations; for example, when a politician makes a speech asking us to vote for his party, when an advertisement appears on television or on social networks asking us to buy a certain product. In short, we are argumentative beings! Below #[span.r--2.fw-bold we have a step by step] so that you can make an argumentative speech and be sure that you did not miss absolutely anything.
               div(slot="textoEspanol")
-                p n buen discurso argumentativo para un debate debe estar estructurado de forma que sea fácil de entender para los oyentes, donde se exponga claramente la postura sobre el tema, los argumentos a favor de este y la evidencia que lo respalda. 
+                p Un buen discurso argumentativo para un debate debe estar estructurado de forma que sea fácil de entender para los oyentes, donde se exponga claramente la postura sobre el tema, los argumentos a favor de este y la evidencia que lo respalda. 
                   br
                   br
                   |Argumentar es una actividad que se desarrolla en multitud de situaciones; por ejemplo, cuando un político emite un discurso para que votemos por su partido, cuando en la televisión o en las redes sociales aparece un anuncio para que compremos un determinado producto. En definitiva, ¡somos seres argumentadores!  A continuación, tenemos un paso a paso para que pueda realizar un discurso argumentativo y esté seguro de que no le hace falta absolutamente nada. 
@@ -236,7 +236,10 @@
                             br
                             | Many times, in the debate exercises, it is not in our options to choose the topic or the position in favor of which we are going to debate, it is only assigned to us and that's it. But if it is in your possibilities to choose it, keep in mind the following.
                         div(slot="textoEspanol")
-                          p 
+                          p Este suele ser un tema controvertido y polarizador, pero que puede investigarse y debatirse de manera lógica.
+                            br
+                            br
+                            |Muchas veces, en los ejercicios de debate, no está en nuestras opciones elegir el tema o la posición a favor de la cual vamos a debatir, solo se nos asigna a nosotros y ya está. Pero si está en tus posibilidades elegirlo, ten en cuenta lo siguiente.
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
                         :audio="require('@/assets/curso/audios/tema1/1.mp3')"
@@ -258,7 +261,10 @@
                             br
                             | If it is up to you to choose your position in the debate, weigh not only your interests and ideals but also its advantages and disadvantages, as this can greatly influence how easy or difficult it will be to defend your claim.  
                         div(slot="textoEspanol")
-                          p 
+                          p Examínalo y, de acuerdo con esto, elige tu posición.
+                            br
+                            br
+                            |Si te toca a ti elegir tu posición en el debate, sopesa no solo tus intereses e ideales sino también sus ventajas y desventajas, ya que esto puede influir mucho en cuán fácil o difícil será defender tu reclamo.
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
                         :audio="require('@/assets/curso/audios/tema1/2.mp3')"
@@ -280,7 +286,10 @@
                             br
                             |Finish establishing your position by stating these concepts as this will be the basis of your debate speech.
                         div(slot="textoEspanol")
-                          p 
+                          p Su tema, idea principal y tesis
+                            br
+                            br
+                            |Termina de establecer tu posición enunciando estos conceptos ya que serán la base de tu discurso de debate.
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
                         :audio="require('@/assets/curso/audios/tema1/3.mp3')"
@@ -302,7 +311,10 @@
                             br
                             | Write consciously and with a purpose all those sentences and statements that are going to support your speech. 
                         div(slot="textoEspanol")
-                          p 
+                          p Afirmaciones más sólidas para los principales argumentos de apoyo y contraargumentos que se pueden refutar.
+                            br
+                            br
+                            |Escribe conscientemente y con un propósito todas aquellas oraciones y afirmaciones que van a sustentar tu discurso.
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
                         :audio="require('@/assets/curso/audios/tema1/4.mp3')"
@@ -324,7 +336,10 @@
                             br
                             |Assemble and structure your speech correctly, as the order in which your audience receives the information can influence how they perceive the topic and the position they take on it.
                         div(slot="textoEspanol")
-                          p 
+                          p Esto es importante e influye en cómo se percibirá su discurso.
+                            br
+                            br
+                            |Arma y estructura tu discurso correctamente, ya que el orden en que tu audiencia recibe la información puede influir en cómo perciben el tema y la posición que toman al respecto.
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
                         :audio="require('@/assets/curso/audios/tema1/5.mp3')"
@@ -359,7 +374,27 @@
                               i.fas.fa-circle.fa-xs(style="color:#3c3fa7 ")
                               p.mb-0.fst-italic Work on your rhetoric and discursive style.
                         div(slot="textoEspanol")
-                          p 
+                          p No solo es importante lo que dices sino cómo lo dices
+
+                            br
+                            br
+                            |No lea, recite su material de memoria.
+
+                            br
+                            br
+                            |Cuida que tu vocabulario no sea cliché, básico, común o repetitivo.
+
+                            br
+                            br
+                            |Evite los rellenos.
+
+                            br
+                            br
+                            |Habla despacio y vocaliza bien.
+
+                            br
+                            br
+                            |Trabaja en tu retórica y estilo discursivo.
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
                         :audio="require('@/assets/curso/audios/tema1/6.mp3')"
@@ -399,7 +434,22 @@
                               p.mb-0.fst-italic Close your debate with passion.
                           
                         div(slot="textoEspanol")
-                          p 
+                          p Tu comportamiento también influye en tu discurso y en tu audiencia
+                            br
+                            br
+                            |Usa gestos y lenguaje corporal para consolidar tu discurso.
+                            br
+                            br
+                            |Haz contacto visual con tu audiencia.
+                            br
+                            br
+                            |Diversifica tu tono de voz, adáptalo al contenido de tu discurso, para que no resulte monótono.
+                            br
+                            br
+                            |Aprende a gestionar las pausas a tu favor.
+                            br
+                            br
+                            |Cierra tu debate con pasión.
                       TarjetaAudio.color-acento-botones.mb-3(
                         texto=""
                         :audio="require('@/assets/curso/audios/tema1/7.mp3')"
@@ -469,7 +519,7 @@
     Dialogo.color-primario(:dialogo="dialogo").fst-italic
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) Past perfect practice
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     
     
 
