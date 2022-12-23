@@ -518,7 +518,7 @@
       span.r--g / Ahora, veamos cuánto aprendió sobre cómo presentar los argumentos y el discurso para  un debate. Escuche y complete el siguiente diálogo.
     Dialogo.color-primario(:dialogo="dialogo").fst-italic
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Past perfect practice
+      template(#titulo-actividad) To practice arguments and speech
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     
     

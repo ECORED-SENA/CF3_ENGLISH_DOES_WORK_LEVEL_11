@@ -116,14 +116,14 @@ export default {
       tipo: 'Video ',
       link: 'https://www.youtube.com/watch?v=oAUKxr946SI ',
     },
-    {
-      tema: 'Basic Argument Construction (Construcción de argumentos) ',
-      referencia:
-        'Instructional Development Services. (s. f.). Identifying the Main Idea. Austin Community College District.',
-      tipo: 'Artículo ',
-      link:
-        'https://sites.austincc.edu/tsiprep/reading-review/identifying-the-main-idea/ ',
-    },
+    // {
+    //   tema: 'Basic Argument Construction (Construcción de argumentos) ',
+    //   referencia:
+    //     'Instructional Development Services. (s. f.). Identifying the Main Idea. Austin Community College District.',
+    //   tipo: 'Artículo ',
+    //   link:
+    //     'https://sites.austincc.edu/tsiprep/reading-review/identifying-the-main-idea/ ',
+    // },
     {
       tema:
         'Useful expressions for debating (Expresiones útiles para debatir) ',
@@ -162,12 +162,12 @@ export default {
       link:
         'https://ctl.yale.edu/sites/default/files/files/GWC_LinkingWords-1.pdf ',
     },
-    {
-      referencia:
-        'Instructional Development Services. (s. f.). Identifying the Main Idea. Austin Community College District.',
-      link:
-        'https://sites.austincc.edu/tsiprep/reading-review/identifying-the-main-idea/  ',
-    },
+    // {
+    //   referencia:
+    //     'Instructional Development Services. (s. f.). Identifying the Main Idea. Austin Community College District.',
+    //   link:
+    //     'https://sites.austincc.edu/tsiprep/reading-review/identifying-the-main-idea/  ',
+    // },
     {
       referencia:
         'Learning Assistance Center. (s. f.). Main ideas and supporting details. University of Hawaii.',
